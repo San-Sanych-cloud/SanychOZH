@@ -1,0 +1,35 @@
+.test{
+  border: 2px solid red;
+  height: 100vh;
+  background-attachment: fixed;
+  background-image: url(../imj/background__image__3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.body{
+  height: 200vh;
+}
+.parallax{
+
+}
+
+.parallax__image {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.parallax__image:nth-child(1){
+  background-image: url(../imj/background__image__1.jpg);
+}
+.parallax__image:nth-child(2){
+  background-image: url(../imj/background__image__2.jpg);
+}
+.parallax__image:nth-child(3){
+  background-image: url(../imj/background__image__3.jpg);
+}
+.parallax__image:nth-child(4){
+  background-image: url(../imj/1.jpg);
+}
